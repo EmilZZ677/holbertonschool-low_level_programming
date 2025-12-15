@@ -18,11 +18,11 @@ int main(void)
 	return (0);
 }
 {
-	char d = 'A';
-	while (d <= 'Z')
+	c = 'A';
+	while (c <= 'Z')
 	{
-		putchar(d);
-		d++;
+		putchar(c);
+		c++;
 	}
 	putchar ('\n');
 
