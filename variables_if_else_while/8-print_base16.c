@@ -5,13 +5,19 @@
   */
 int main(void)
 {
-	char c = '0';
+	char c = '0', e = 'a';
 
-	while (c <= 15 + '0')
+	while (c <= 9 + '0')
 	{
 		putchar(c);
 		c++;
 	}
+	while (e <= 'f')
+	{
+		putchar(e);
+		c++;
+	}
+
 	putchar('\n');
 
 	return (0);
