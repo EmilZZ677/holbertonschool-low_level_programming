@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
-* print alphabet-entry point
-* Return: always 0
-*/
+ * print_alphabet - entry point
+ * Return: 0 if successful
+ */
 void print_alphabet(void)
 {
 	char letter;
