@@ -1,33 +1,21 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-int _putchar(char c);
-
-#endif /* MAIN_H */
-#include <unistd.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
- * _putchar - writes a character to stdout
- * @c: the character to print
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * main - entry point
+ * Return: 0 if successful
  */
-int _putchar(char c)
-{
-    return write(1, &c, 1);
-}
-#include <unistd.h>
-#include "main.h"
 
-/**
- * _putchar - writes a character to stdout
- * @c: the character to print
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
-int _putchar(char c)
+int main(void)
 {
-    return write(1, &c, 1);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
-
