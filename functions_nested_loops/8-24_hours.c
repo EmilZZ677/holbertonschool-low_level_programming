@@ -1,19 +1,33 @@
-#incldue "main.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
-* jack-bauer - bibibi
-* Return: bubububub 0
-*/
+ * jack_bauer - entry point
+ * Return: minutes of day
+ */
 
 void jack_bauer(void)
 {
-	int hour, minute;
+	int a, b, c, d;
 
-	for (hour = 0; hour < 24; hour ++)
+	for (a = 0; a < 3; a++)
 	{
-		for (minute = 0; minute < 60; minute++)
+		for (b = 0; b <= 9; b++)
 		{
-			printf("%02d:%02d\n", hour, minute);
+			if (a == 2 && b >= 4)
+				continue;
+			for (c = 0; c < 6; c++)
+			{
+				for (d = 0; d <= 9; d++)
+				{
+					_putchar((a % 10) + '0');
+					_putchar((b % 10) + '0');
+					_putchar(':');
+					_putchar((c % 10) + '0');
+					_putchar((d % 10) + '0');
+					_putchar('\n');
+				}
+			}
 		}
 	}
 }
