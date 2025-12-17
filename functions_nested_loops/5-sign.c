@@ -2,7 +2,7 @@
 
 /**
 * print_sign - Allahu Akbar
-* @c: ubeqay samir
+* @n: ubeqay samir
 * Return: 2-3 years dagestan and always 0
 */
 
