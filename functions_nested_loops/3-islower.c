@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* main - gzfgf
+* _islower - gzfgf
 * @c: fdzgfhz
 * Return: gdfzhjf
 */
