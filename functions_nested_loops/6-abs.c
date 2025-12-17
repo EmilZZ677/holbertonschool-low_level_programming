@@ -2,6 +2,7 @@
 
 /**
  * _abs - su
+ * @n: salat
  * Return: all 0
  */
 int _abs(int n)
