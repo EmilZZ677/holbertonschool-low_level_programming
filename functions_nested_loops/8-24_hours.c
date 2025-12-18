@@ -1,9 +1,10 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
-* jack_bauer - entry point
-* Return: minutes of day
-*/
+ * jack_bauer - entry point
+ * Return: minutes of day
+ */
 
 void jack_bauer(void)
 {
