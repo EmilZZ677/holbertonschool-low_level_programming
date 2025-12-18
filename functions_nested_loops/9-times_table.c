@@ -2,6 +2,7 @@
 
 /**
 * times_table - prints 9 times table starts from 0
+* Return: if all good 0
 */
 void times_table(void)
 {
