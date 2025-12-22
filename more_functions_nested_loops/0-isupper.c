@@ -1,10 +1,14 @@
 #include "main.h"
 
 /**
-*
-* 
+* _isupper - bombo clap
+* Return: 1 if c is upper
+* @c: parameter
 */
 
 int _isupper(int c)
 {
-	if (c);
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	return (0);
+}
