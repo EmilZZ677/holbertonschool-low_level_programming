@@ -7,8 +7,8 @@
 
 void print_numbers(void)
 {
-	int n;
-	for (n = 0; n <= 9; n++)
-		_putchar(n + '0');
+	int c;
+	for (c = 0; c <= 9; c++)
+		_putchar(c + '0');
 	_putchar("/n");
 }
