@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*
-*
-*
+* Return: 0
+* @c: tolko qazzz
+* _isdigit - ondan
 */
 
 int _isdigit(int c)
