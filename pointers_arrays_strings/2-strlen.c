@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* strlen - function
+* _strlen - function
 * @s: parameter
 * Return: if all good give 1
 */
