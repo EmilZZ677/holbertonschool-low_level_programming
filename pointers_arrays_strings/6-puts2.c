@@ -3,7 +3,8 @@
 /**
  * puts2: entry point
  * @str: parameter
- * return:if all good
+ * 
+ * prints all second symbols and also first ones too
  */
 
 void puts2(char *str)
