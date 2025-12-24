@@ -3,6 +3,7 @@
 /**
  * puts2: entry point
  * @str: parameter
+ * return:if all good
  */
 
 void puts2(char *str)
