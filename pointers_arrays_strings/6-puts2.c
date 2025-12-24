@@ -2,8 +2,7 @@
 
 /**
  * puts2: entry point
- * @str: parameter
- * 
+ * @str: parameter 
  * prints all second symbols and also first ones too
  */
 
