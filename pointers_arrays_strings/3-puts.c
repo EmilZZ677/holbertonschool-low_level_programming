@@ -3,7 +3,7 @@
 /**
  * _puts - entry point
  * @str: parameter
- * return:void
+ * return: void
  */
 
 void _puts(char *str)
