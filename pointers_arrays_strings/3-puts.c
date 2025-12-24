@@ -3,6 +3,7 @@
 /**
  * _puts - entry point
  * @str: parameter
+ * return:void
  */
 
 void _puts(char *str)
@@ -15,4 +16,5 @@ void _puts(char *str)
 		i++;
 	}
 	_putchar('\n');
+	return;
 }
