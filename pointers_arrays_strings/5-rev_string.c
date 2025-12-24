@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * rev_string - entry point
+ * @s: parameter
+ * return: void
+ */
+
 void rev_string(char *s)
 {
 	int i = 0;
@@ -8,15 +14,13 @@ void rev_string(char *s)
 
 	while (s[j] != '\0')
 		j++;
-
 	j--;
 
-	while (i < 3)
+	while (i < j)
 	{
 		temp = s[i];
 		s[i] = s[j];
 		s[j] = s[i];
-
 		i++;
 		j++;
 	}
