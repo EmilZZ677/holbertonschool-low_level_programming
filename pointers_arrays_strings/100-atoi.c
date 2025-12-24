@@ -1,25 +1,27 @@
 #include "main.h"
 
 /**
- * _strcpy - copies one string to another
- * @dest: Array
- * @src: Size of Array
+ * _atoi - converts sting to integer
+ * @s: parameter
  *
- * Return: On success 1.
- * On error, -1 is returned
+ * Return: returns int converted from str
  */
-char *_strcpy(char *dest, char *src)
-{
-	int i, j;
 
-	i = 0;
-	while (src[i] != '\0')
-	{
-		i++;
-	}
-	for (j = 0; j <= i; j++)
-	{
-		dest[j] = *(src + j);
-	}
-	return (dest);
+int _atoi(char *s)
+{
+	int sign = 1;
+	unsigned int num = 0;
+
+	do {
+		if (*s == '-')
+			sign *= -1;
+
+		else if (*s >= '0' && *s <= '9')
+			num = num * 10 + (*s - '0');
+
+		else if (num > 0)
+			break;
+
+	} while (*s++);
+	return (num * sign);
 }
