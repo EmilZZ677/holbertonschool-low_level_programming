@@ -3,7 +3,7 @@
 /**
  * puts2: entry point
  * @str: parameter
- * prints all second symbols and also first ones too
+ * Prints every other character of the string, starting with the first, followed by a new line.
  */
 
 void puts2(char *str)
