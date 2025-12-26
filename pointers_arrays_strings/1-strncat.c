@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
+ * _strcat - append to dest
+ * @dest: destination
+ * @src: source
+ * @n: integer
  *
- *
- *
- *
+ * Return: returns pointer to dest
  */
 
 char *_strncat(char *dest, char *src, int n);
