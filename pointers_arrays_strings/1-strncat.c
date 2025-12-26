@@ -1,31 +1,28 @@
 #include "main.h"
 
 /**
- * _strcat - append to dest
+ * _strncat - appends n elements of src to dest
  * @dest: destination
  * @src: source
- * @n: integer
+ * @n: count of appending elemnets
  *
- * Return: returns pointer to dest
+ * Return: returns destination
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0, j = 0;
+	int i = 0, j, k = 0;
 
+	if (*(dest + i) == '\0' || *(src + i) == '\0')
+		return (dest);
 	while (dest[i] != '\0')
-	{
 		i++;
-	}
-
-	while (j < n && src[j] != '\0')
+	j = i;
+	while ((j < i + n))
 	{
-		dest[i] = src[j];
-		i++;
+		dest[j] = src[k];
 		j++;
+		k++;
 	}
-
-	dest[i] = '\0';
-
-	return dest;
+	return (dest);
 }
